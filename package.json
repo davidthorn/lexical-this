@@ -2,7 +2,6 @@
   "name": "lexical-this",
   "version": "1.0.0",
   "description": "A project which describes lexical this in javascript showing examples of when this is undefined and how you can bind this from other objects.",
-  "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
