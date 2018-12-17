@@ -1,0 +1,19 @@
+{
+  "name": "lexical-this",
+  "version": "1.0.0",
+  "description": "A project which describes lexical this in javascript showing examples of when this is undefined and how you can bind this from other objects.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/davidthorn/lexical-this.git"
+  },
+  "author": "David Thorn <david.thorn221278@googlemail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidthorn/lexical-this/issues"
+  },
+  "homepage": "https://github.com/davidthorn/lexical-this#readme"
+}
