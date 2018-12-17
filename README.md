@@ -28,6 +28,7 @@ const anon_function_result = anon_function()  // true
 console.log("this used within Anonymous function: " , anon_function_result)
 /// this used within Anonymous function: true
 ```
+![alt text](./screen_shots/example_1.png)
 
 ## Example 2
 
@@ -49,6 +50,8 @@ console.log('this used with an object' , anon_function_object_result )
 /// this used with an object
 /// anon_function {}
 ```
+
+![alt text](./screen_shots/example_2.png)
 
 ## Example 3
 
@@ -73,6 +76,7 @@ const an_object = {
 const anon_object_result = an_object.arrow_function()
 console.log('result is: ' , anon_object_result)
 ```
+![alt text](./screen_shots/example_3.png)
 
 ## Example 4
 
@@ -101,6 +105,7 @@ const anon_object = {
 const anon_object_result = anon_object.anon_function()
 console.log('result is: ' , anon_object_result)
 ```
+![alt text](./screen_shots/example_4.png)
 
 ## Example 5
 
@@ -132,6 +137,8 @@ class ArrowClass {
 let arrow_class = new ArrowClass()
 console.log('method result is: ', arrow_class.method())
 ```
+
+![alt text](./screen_shots/example_5.png)
 
 ## Example 6
 
@@ -178,6 +185,9 @@ async_class.method(() => {
 })
 ```
 
+![alt text](./screen_shots/example_6.png)
+
+
 ## Example 7
 
 ### This used within an anonymous function passed to a high order function of a class method
@@ -214,6 +224,8 @@ async_class.method(function (){
 
 })
 ```
+
+![alt text](./screen_shots/example_7.png)
 
 ## Example 8
 
@@ -256,6 +268,8 @@ const bound_async_class_function = binded_anon_function.bind(async_class)
 
 async_class.method(bound_async_class_function)
 ``` 
+
+![alt text](./screen_shots/example_8.png)
 
 ## Example 9
 
@@ -304,6 +318,9 @@ object.method().then(() => {
 })
 ```
 
+![alt text](./screen_shots/example_9.png)
+
+
 ## Example 10
 
 ### Using this within an anonymous function within a class method
@@ -349,6 +366,8 @@ object.method().then(() => {
     console.log('promise called')
 })
 ```
+
+![alt text](./screen_shots/example_11.png)
 
 ## Example 11
 
@@ -399,3 +418,5 @@ object.method().then(() => {
 })
 
 ```
+
+![alt text](./screen_shots/example_11.png)
